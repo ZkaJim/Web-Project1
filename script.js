@@ -1,16 +1,11 @@
+const number = 1450;
 
-// function kelas() {
-//     const kelas="kelas 10 RPL"
-//     console.log("kelas: " + kelas);
-//     return kelas;
-// }
-
-// kelas();
-
-// function nama() {
-//     const nama="Azka Jimmie"
-//     console.log("nama: " + nama)
-//     return nama
-// }
-
-// nama();
+if (number < 10) {
+    console.log("Satuan.");
+} else if (number < 100) {
+    console.log("Puluhan.");
+} else if (number < 1000) {
+    console.log("Ratusan.");
+} else {
+    console.log("Ribuan.");
+}
